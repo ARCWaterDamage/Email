@@ -1,4 +1,4 @@
-public with sharing class MM_SendEmailWizardController {
+public with sharing class SendEmailController {
     /*init class variables */
     public String firstTabActive {get;set;}
     public String secondTabActive {get;set;}

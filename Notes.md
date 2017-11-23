@@ -1,3 +1,5 @@
+# NOTES - Salesforce Implementation
+
 * Account = FSM
 * Active FSM - Checkbox --> trigger
 * Non-active FSM

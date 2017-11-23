@@ -6,3 +6,6 @@
 * Record Type --> Plumbers, Property Managers, Insurance, Agent, Other
 * Type of Loss: Water 1, Water 2, Water 3, Fire, Mold
 * Lead Tech: Tyrone, Joe
+
+### Fields
+* 

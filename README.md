@@ -1,4 +1,4 @@
-# Email
+# Email Processess
 
 ## Campaigns
 * [Salesforce Campaign Implementaiton Guide](https://resources.docs.salesforce.com/208/latest/en-us/sfdc/pdf/salesforce_campaign_implementation_guide.pdf)

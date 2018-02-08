@@ -22,3 +22,11 @@
 * https://developer.salesforce.com/docs/atlas.en-us.fundamentals.meta/fundamentals/adg_simple_app_adv_fields_formula.htm
 * https://developer.salesforce.com/docs/atlas.en-us.210.0.usefulFormulaFields.meta/usefulFormulaFields/formula_using_date_datetime.htm
 * https://app.pipedrive.com/auth/login?return_url=https%3A%2F%2Farcwaterdamage.pipedrive.com%2Forganization%2F1180
+
+## Time-Based Workflow
+
+It looks like we need to build this from the opportunity object.  We would setup a "Time-Based Workflow" via "Process Builder".  The timing would be based on X days after the opportunity is closed.  So this assumption is based on the idea that ARC would create and close opportunities for each referral they receive.  Once the opportunity is closed, a time-based workflow would execute.  We would need a filter to screen out other activities before the close date.  One thing I have not worked out is how this is prevented for clients where new opportunities are received after the last opportunity, so there is at least one other catch to this I have to sort out. 
+
+Salesforce also cannot fire email through Process Builder to non-users.  The workaround for this appears to be the need to build a lookup from the opportunity object to the contact object and pull in the appropriate (Primary) contact.  Since this is not a standard field in Salesforce we would need to likely designate a primary contact and then use the lookup to populate the opportunity accordingly.  
+
+Here's a use case that talks about the lookup setup process (2nd use case).  https://judisohn.com/2015/04/06/using-salesforce-process-builder-flow-with-opportunity-contact-roles/

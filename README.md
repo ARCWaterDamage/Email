@@ -30,3 +30,4 @@ It looks like we need to build this from the opportunity object.  We would setup
 Salesforce also cannot fire email through Process Builder to non-users.  The workaround for this appears to be the need to build a lookup from the opportunity object to the contact object and pull in the appropriate (Primary) contact.  Since this is not a standard field in Salesforce we would need to likely designate a primary contact and then use the lookup to populate the opportunity accordingly.  
 
 Here's a use case that talks about the lookup setup process (2nd use case).  https://judisohn.com/2015/04/06/using-salesforce-process-builder-flow-with-opportunity-contact-roles/
+* 

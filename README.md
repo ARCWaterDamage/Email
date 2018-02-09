@@ -4,7 +4,7 @@
 * [Salesforce Campaign Implementaiton Guide](https://resources.docs.salesforce.com/208/latest/en-us/sfdc/pdf/salesforce_campaign_implementation_guide.pdf)
 
 ## Notes
-
+* [Data Access and Views: What’s Different or Not Available in Lightning Experience](https://help.salesforce.com/articleView?id=lex_gaps_limitations_data_access.htm&type=5)
 * https://jenwlee.wordpress.com/2016/07/05/standard-email-message-object-process-builderflow-use-case-create-task-when-follow-up-email-sent/
 
 * https://developer.salesforce.com/forums/?id=906F00000008um5IAA
